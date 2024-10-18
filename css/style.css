@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-image: url('/assets/imagens/background_menu.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#imagemPrincipal {
+    border: 10px solid black;
+    border-radius: 10px;
+    border-color: rgb(8, 51, 8);
+    max-width: 80%;
+    height: auto;
+    /* Para manter a proporção da imagem */
+}
